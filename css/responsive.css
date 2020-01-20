@@ -1,0 +1,33 @@
+.wrapper {
+width: 90%;
+}
+
+@media only screen and (max-width: 980px) {
+.wrapper { width: 90%; }
+}
+
+#social {
+    position: absolute;
+    width: auto;
+    margin-top: 82px;
+    margin-right: 4px;
+    top: 72px;
+}
+
+body {font-size: 85%;
+}
+
+h1 {
+    height: 35px;
+    widtH: 35px;
+ }
+h2 {
+    font-size: 2.2em; 
+}
+
+
+@media only screen and (min-width: 480px) {
+  .col-3 p {
+    column-count: 2;  
+  }
+}
